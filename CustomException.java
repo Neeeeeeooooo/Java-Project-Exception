@@ -25,10 +25,10 @@ class test{
 			
 		}
 		catch(InputMismatchException ce) {
-				throw new CustomeException("Na unsa man ka uy naa diay age nga character or word? mao nani ron");
+				throw new CustomeException("Cant contain characters");
 			}
 		catch(Exception e) {
-			System.out.println("sayup jud dol"+ e.toString());
+			System.out.println("You cant do that"+ e.toString());
 		}
 	 }while(quit!=2);
 }
